@@ -30,6 +30,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* TODO ======================= HEADER ======================= */
 header {
   position: fixed;
   top: 0;
@@ -92,6 +93,7 @@ header .icons #menu-bars {
   display: none;
 }
 
+/* TODO ======================= SEARCH FORM ======================= */
 #search-form {
   position: fixed;
   top: -110%;
