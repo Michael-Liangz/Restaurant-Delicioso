@@ -37,6 +37,17 @@ document.querySelector("#close").onclick = () => {
   document.querySelector("#search-form").classList.remove("active");
 };
 
+// TODO ======================= LOADER =======================
+function loader() {
+  document.querySelector(".loader-container").classList.add("fade-out");
+}
+
+function fadeOut() {
+  setInterval(loader, 3000);
+}
+
+window.onload = fadeOut;
+
 // TODO ======================= SWIPER JS HOME =======================
 var swiper = new Swiper(".home-slider", {
   spaceBetween: 30,
