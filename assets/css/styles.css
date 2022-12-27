@@ -547,7 +547,8 @@ header .icons #menu-bars {
 }
 
 .order form .btn {
-  margin-top: 0;
+  display: block;
+  margin: 0 auto;
 }
 
 /* TODO ======================= FOOTER ======================= */
