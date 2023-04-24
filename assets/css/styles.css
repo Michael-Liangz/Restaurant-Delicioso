@@ -521,7 +521,8 @@ header .icons #menu-bars {
   display: block;
   padding: 0.5rem 0;
   font-size: 1.5rem;
-  color: var(--light-color);
+  color: var(--black);
+  font-weight: bold;
 }
 
 .order form .inputBox .input input,
@@ -530,7 +531,7 @@ header .icons #menu-bars {
   border-radius: 0.5rem;
   padding: 1rem;
   font-size: 1.6rem;
-  color: var(--black);
+  color: var(--light-color);
   text-transform: none;
   margin-bottom: 1rem;
   width: 100%;
